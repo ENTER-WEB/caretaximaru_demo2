@@ -651,7 +651,7 @@ a {
 
 .flow-box,
 .price-box {
-  min-height: 250px;
+  min-height: 286px;
   border: 1.5px solid #8fcbbf;
   border-radius: 13px;
   background: rgba(255, 250, 240, .18);
@@ -697,10 +697,10 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 112px;
-  height: 166px;
+  width: 120px;
+  height: 192px;
   justify-self: center;
-  padding: 22px 8px 11px;
+  padding: 22px 9px 13px;
   border: 1px solid #d9d3c8;
   border-radius: 9px;
   background: rgba(255, 253, 248, .72);
@@ -710,8 +710,8 @@ a {
 .flow-step:not(:last-of-type)::after {
   content: "›";
   position: absolute;
-  top: 64px;
-  right: -28px;
+  top: 78px;
+  right: -26px;
   color: var(--teal);
   font-size: 38px;
   font-weight: 900;
@@ -743,21 +743,21 @@ a {
 
 .step-icon-img {
   flex: 0 0 auto;
-  width: 42px;
-  height: 42px;
+  width: 40px;
+  height: 40px;
   margin: 0 auto;
   object-fit: contain;
 }
 
 .car-step-icon {
-  width: 48px;
+  width: 46px;
 }
 
 .flow-step h3 {
   flex: 0 0 auto;
-  margin: 9px 0 8px;
+  margin: 9px 0 7px;
   font-size: 13px;
-  line-height: 1.45;
+  line-height: 1.42;
   letter-spacing: .02em;
 }
 
@@ -769,7 +769,7 @@ a {
   margin: 0;
   font-size: 10px;
   font-weight: 700;
-  line-height: 1.72;
+  line-height: 1.6;
   letter-spacing: .02em;
 }
 
