@@ -642,23 +642,23 @@ a {
 /* Flow and Price */
 .info-columns {
   display: grid;
-  grid-template-columns: 1.06fr .94fr;
-  gap: 23px;
-  max-width: 1150px;
+  grid-template-columns: 1.18fr .82fr;
+  gap: 22px;
+  max-width: 1230px;
   margin: 0 auto 19px;
   padding: 0 20px;
 }
 
 .flow-box,
 .price-box {
-  min-height: 286px;
+  min-height: 304px;
   border: 1.5px solid #8fcbbf;
   border-radius: 13px;
   background: rgba(255, 250, 240, .18);
 }
 
 .flow-box {
-  padding: 14px 22px 18px;
+  padding: 15px 28px 22px;
 }
 
 .price-box {
@@ -688,7 +688,7 @@ a {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   align-items: center;
-  gap: 28px;
+  gap: 24px;
   position: relative;
 }
 
@@ -697,10 +697,10 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 120px;
-  height: 192px;
+  width: 132px;
+  height: 208px;
   justify-self: center;
-  padding: 22px 9px 13px;
+  padding: 25px 11px 15px;
   border: 1px solid #d9d3c8;
   border-radius: 9px;
   background: rgba(255, 253, 248, .72);
@@ -710,8 +710,8 @@ a {
 .flow-step:not(:last-of-type)::after {
   content: "›";
   position: absolute;
-  top: 78px;
-  right: -26px;
+  top: 86px;
+  right: -25px;
   color: var(--teal);
   font-size: 38px;
   font-weight: 900;
@@ -755,22 +755,23 @@ a {
 
 .flow-step h3 {
   flex: 0 0 auto;
-  margin: 9px 0 7px;
-  font-size: 13px;
-  line-height: 1.42;
+  margin: 10px 0 8px;
+  font-size: 13.5px;
+  line-height: 1.44;
   letter-spacing: .02em;
 }
 
 .flow-step p {
-  flex: 1 1 auto;
+  flex: 0 0 auto;
   display: flex;
   align-items: flex-start;
   justify-content: center;
   margin: 0;
-  font-size: 10px;
+  max-width: 100%;
+  font-size: 10.5px;
   font-weight: 700;
-  line-height: 1.6;
-  letter-spacing: .02em;
+  line-height: 1.58;
+  letter-spacing: 0;
 }
 
 .flow-arrow {
